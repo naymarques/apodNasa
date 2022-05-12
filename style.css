@@ -5,22 +5,24 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Mono', monospace;
   width: 100%;
   min-height: 100vh;
-  background-image: url(./backgroundCapa.webp);
+  background-image: url(./img/backgroundCapa.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  text-shadow: 0 0 5px blueviolet;
+  text-shadow: 0 0 5px black;
   font-weight: 500;
 }
 
 header {
   font-size: 1.2rem;
   text-align: center;
-  background-color: blue;
+  gap: 2em;
+  text-align: center;
+  position: relative;
 }
 
 footer {
@@ -40,7 +42,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   text-align: center;
   padding: 5px;
 }
