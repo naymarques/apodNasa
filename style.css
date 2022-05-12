@@ -46,3 +46,42 @@ footer {
   text-align: center;
   padding: 5px;
 }
+
+.btn {
+  padding: 1em;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: black;
+  background: gray;
+  background: linear-gradient(90deg, rgb(89, 95, 94) 0%, rgb(68, 97, 94) 100%);
+  border: none;
+  border-radius: 1000px;
+  box-shadow: 12px 12px 24px rgb(101, 96, 138);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  font-weight: 500;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.btn:hover {
+  transform: translateY(-6px);
+}
+
+#dataInput{
+  font-family: 'Roboto Mono', monospace;
+  padding: 1em;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: black;
+  border-radius: 1000px;
+  border: none;
+  box-shadow: 12px 12px 24px rgb(101, 96, 138);
+
+}
+
+#dataInput:hover {
+  transform: translateY(-3px);
+}
